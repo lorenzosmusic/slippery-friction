@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="210127-song" sample-rate="44100" end-is-free="0" id-counter="9861" name-counter="1" event-counter="544" vca-counter="1">
+<Session version="3002" name="210127-song" sample-rate="44100" end-is-free="0" id-counter="11273" name-counter="1" event-counter="546" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3ubuntu4" modified-with="Ardour 1:5.12.0-3ubuntu4"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -210,7 +210,7 @@
     <CompoundAssociation copy="997" original="929"/>
   </CompoundAssociations>
   <Selection>
-    <StripableAutomationControl stripable="2163" control="0" order="2"/>
+    <StripableAutomationControl stripable="3274" control="0" order="4"/>
   </Selection>
   <Locations>
     <Location id="251" name="session" start="0" end="7507256" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
@@ -370,9 +370,7 @@
       <Controllable name="solo-iso" id="172" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="174" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="keys" id="186" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="keys/audio_in 1">
-          <Connection other="system:capture_1"/>
-        </Port>
+        <Port type="audio" name="keys/audio_in 1"/>
       </IO>
       <IO name="keys" id="187" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="keys/audio_out 1">
