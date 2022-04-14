@@ -2,7 +2,7 @@
 <instant>
   <LastUsedSnapshot name="210127-song"/>
   <Main x="0" y="29" w="1920" h="1019" current-tab="editor"/>
-  <Editor id="12" edit-horizontal-pane-pos="0.89999997615814209" notebook-shrunk="0" edit-vertical-pane-pos="0.89999997615814209" mixer-width="Wide" zoom-focus="ZoomFocusMouse" zoom="8734" snap-to="SnapToBeatDiv2" snap-mode="SnapNormal" internal-snap-to="SnapToBeatDiv32" internal-snap-mode="SnapNormal" pre-internal-snap-to="SnapToBeatDiv2" pre-internal-snap-mode="SnapNormal" edit-point="EditAtMouse" visible-track-count="-1" playhead="1567217" left-frame="0" y-origin="239" show-measures="1" maximised="0" follow-playhead="1" stationary-playhead="0" region-list-sort-type="ByEndInFile" mouse-mode="MouseObject" join-object-range="0" show-editor-mixer="1" show-editor-list="1" editor-list-page="1" show-marker-lines="0" nudge-clock-value="220500">
+  <Editor id="12" edit-horizontal-pane-pos="0.89999997615814209" notebook-shrunk="0" edit-vertical-pane-pos="0.89999997615814209" mixer-width="Wide" zoom-focus="ZoomFocusMouse" zoom="5441" snap-to="SnapToBeatDiv2" snap-mode="SnapNormal" internal-snap-to="SnapToBeatDiv32" internal-snap-mode="SnapNormal" pre-internal-snap-to="SnapToBeatDiv2" pre-internal-snap-mode="SnapNormal" edit-point="EditAtMouse" visible-track-count="-1" playhead="3307500" left-frame="0" y-origin="239" show-measures="1" maximised="0" follow-playhead="1" stationary-playhead="0" region-list-sort-type="ByEndInFile" mouse-mode="MouseObject" join-object-range="0" show-editor-mixer="1" show-editor-list="1" editor-list-page="1" show-marker-lines="0" nudge-clock-value="220500">
     <Window name="Editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" tabbed="1"/>
     <Buttons>
       <Press/>
@@ -10,32 +10,8 @@
     </Buttons>
     <Selection>
       <Regions>
-        <Region id="63471"/>
-        <Region id="63481"/>
-        <Region id="63491"/>
-        <Region id="63501"/>
-        <Region id="63511"/>
-        <Region id="63521"/>
-        <Region id="63531"/>
-        <Region id="63541"/>
-        <Region id="63551"/>
-        <Region id="63561"/>
-        <Region id="63571"/>
-        <Region id="63581"/>
-        <Region id="63591"/>
-        <Region id="63601"/>
-        <Region id="63611"/>
-        <Region id="63621"/>
-        <Region id="63631"/>
-        <Region id="63641"/>
-        <Region id="63651"/>
-        <Region id="63661"/>
-        <Region id="63671"/>
-        <Region id="63681"/>
-        <Region id="63691"/>
-        <Region id="63701"/>
+        <Region id="74217"/>
       </Regions>
-      <Marker id="251" start="1"/>
     </Selection>
     <RegionList sort-type="ByEndInFile" sort-ascending="1" show-all="0" show-automatic-regions="1"/>
     <ActionScript lua="Lua 5.3">c2NyaXB0cyA9IHt9IA==</ActionScript>
@@ -48,10 +24,12 @@
       <PluginInfo sort="0" unique-id="http://calf.sourceforge.net/plugins/Compressor" expanded="0"/>
       <PluginInfo sort="1" unique-id="http://calf.sourceforge.net/plugins/Equalizer8Band" expanded="0"/>
       <PluginInfo sort="2" unique-id="http://calf.sourceforge.net/plugins/Reverb" expanded="0"/>
+      <PluginInfo sort="3" unique-id="http://guitarix.sourceforge.net/plugins/gx_studiopre#studiopre" expanded="0"/>
+      <PluginInfo sort="4" unique-id="http://guitarix.sourceforge.net/plugins/gx_studiopre_st#studiopre_st" expanded="0"/>
     </PluginOrder>
   </Mixer>
   <Preferences>
-    <Window name="Preferences" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" tabbed="1"/>
+    <Window name="Preferences" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" tabbed="0"/>
   </Preferences>
   <Meterbridge show-meterbridge="0">
     <geometry x-size="600" y-size="400" x-pos="1" y-pos="1"/>
