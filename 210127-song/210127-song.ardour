@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="210127-song" sample-rate="44100" end-is-free="0" id-counter="218106" name-counter="1" event-counter="3997" vca-counter="1">
+<Session version="3002" name="210127-song" sample-rate="44100" end-is-free="0" id-counter="231516" name-counter="1" event-counter="4061" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3ubuntu4" modified-with="Ardour 1:5.12.0-3ubuntu4.1"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -1133,10 +1133,12 @@
     <CompoundAssociation copy="18044" original="17982"/>
     <CompoundAssociation copy="18053" original="17991"/>
   </CompoundAssociations>
-  <Selection/>
+  <Selection>
+    <StripableAutomationControl stripable="132275" control="0" order="0"/>
+  </Selection>
   <Locations>
     <Location id="251" name="session" start="599965" end="7284192" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
-    <Location id="2224" name="Loop" start="3307500" end="3584407" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+    <Location id="2224" name="Loop" start="3572869" end="4061302" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
   </Locations>
   <Bundles/>
   <VCAManager/>
@@ -1556,7 +1558,7 @@
         <AutomationList automation-id="monitor" id="2202" interpolation-style="Discrete" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="2182" flags="" value="0.49038461538461547"/>
+        <Controllable name="pan-azimuth" id="2182" flags="" value="0.49038460850715637"/>
         <Controllable name="pan-width" id="2186" flags="" value="0"/>
         <Controllable name="pan-elevation" id="2184" flags="" value="0"/>
         <Controllable name="pan-frontback" id="2188" flags="" value="0"/>
@@ -1747,7 +1749,7 @@
       <Processor id="2196" name="Bass" active="1" user-latency="0" own-input="1" own-output="0" output="Bass" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="2182" flags="" value="0.49038461538461547"/>
+          <Controllable name="pan-azimuth" id="2182" flags="" value="0.49038460850715637"/>
           <Controllable name="pan-width" id="2186" flags="" value="0"/>
           <Controllable name="pan-elevation" id="2184" flags="" value="0"/>
           <Controllable name="pan-frontback" id="2188" flags="" value="0"/>
@@ -17091,7 +17093,7 @@
       <Automation>
         <AutomationList automation-id="gain" id="49" interpolation-style="Linear" state="Off"/>
       </Automation>
-      <Controllable name="gaincontrol" id="50" flags="GainLike" value="0.9548993706703186"/>
+      <Controllable name="gaincontrol" id="50" flags="GainLike" value="0.47858330607414246"/>
     </Processor>
   </Click>
   <LTC-In>
