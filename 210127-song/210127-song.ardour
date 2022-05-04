@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="210127-song" sample-rate="44100" end-is-free="0" id-counter="412338" name-counter="1" event-counter="4744" vca-counter="1">
+<Session version="3002" name="210127-song" sample-rate="44100" end-is-free="0" id-counter="430056" name-counter="1" event-counter="4868" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3ubuntu4" modified-with="Ardour 1:5.12.0-3ubuntu4.1"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -1496,20 +1496,18 @@
     <Region name="drums 5-21" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="6799360" position="592273" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="412211" type="audio" first-edit="nothing" source-0="412027" master-source-0="412027" channels="1"/>
   </Regions>
   <CompoundAssociations>
-    <CompoundAssociation copy="18017" original="17897"/>
     <CompoundAssociation copy="18026" original="17906"/>
     <CompoundAssociation copy="18035" original="17936"/>
     <CompoundAssociation copy="18044" original="17982"/>
     <CompoundAssociation copy="18053" original="17991"/>
     <CompoundAssociation copy="988" original="956"/>
     <CompoundAssociation copy="997" original="929"/>
+    <CompoundAssociation copy="18017" original="17897"/>
   </CompoundAssociations>
-  <Selection>
-    <StripableAutomationControl stripable="244910" control="0" order="22"/>
-  </Selection>
+  <Selection/>
   <Locations>
     <Location id="251" name="session" start="592273" end="7284192" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
-    <Location id="2224" name="Loop" start="2830605" end="3076744" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+    <Location id="2224" name="Loop" start="4553581" end="5784279" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
   </Locations>
   <Bundles/>
   <VCAManager/>
@@ -4836,9 +4834,7 @@
       <Controllable name="solo-iso" id="244924" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="244926" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="eric guitar new" id="244938" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="eric guitar new/audio_in 1">
-          <Connection other="system:capture_11"/>
-        </Port>
+        <Port type="audio" name="eric guitar new/audio_in 1"/>
       </IO>
       <IO name="eric guitar new" id="244939" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="eric guitar new/audio_out 1">
@@ -4848,8 +4844,8 @@
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
-      <Controllable name="mute" id="244920" flags="Toggle,RealTime" value="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
+      <Controllable name="mute" id="244920" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="244922" flags="Toggle" value="0" phase-invert="0"/>
       <Automation>
         <AutomationList automation-id="solo" id="244917" interpolation-style="Discrete" state="Off"/>
@@ -4862,7 +4858,7 @@
         <AutomationList automation-id="monitor" id="244949" interpolation-style="Discrete" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="244929" flags="" value="0.48076923076923106"/>
+        <Controllable name="pan-azimuth" id="244929" flags="" value="0.48076921701431274"/>
         <Controllable name="pan-width" id="244933" flags="" value="0"/>
         <Controllable name="pan-elevation" id="244931" flags="" value="0"/>
         <Controllable name="pan-frontback" id="244935" flags="" value="0"/>
@@ -5257,7 +5253,7 @@
       <Processor id="244943" name="eric guitar new" active="1" user-latency="0" own-input="1" own-output="0" output="eric guitar new" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="244929" flags="" value="0.48076923076923106"/>
+          <Controllable name="pan-azimuth" id="244929" flags="" value="0.48076921701431274"/>
           <Controllable name="pan-width" id="244933" flags="" value="0"/>
           <Controllable name="pan-elevation" id="244931" flags="" value="0"/>
           <Controllable name="pan-frontback" id="244935" flags="" value="0"/>
@@ -5283,9 +5279,7 @@
       <Controllable name="solo-iso" id="245818" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="245820" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="drums" id="245832" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="drums/audio_in 1">
-          <Connection other="system:capture_8"/>
-        </Port>
+        <Port type="audio" name="drums/audio_in 1"/>
       </IO>
       <IO name="drums" id="245833" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="drums/audio_out 1">
@@ -5364,9 +5358,7 @@
       <Controllable name="solo-iso" id="245879" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="245881" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="floor primary" id="245893" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="floor primary/audio_in 1">
-          <Connection other="system:capture_7"/>
-        </Port>
+        <Port type="audio" name="floor primary/audio_in 1"/>
       </IO>
       <IO name="floor primary" id="245894" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="floor primary/audio_out 1">
@@ -5562,9 +5554,7 @@
       <Controllable name="solo-iso" id="245940" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="245942" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="drums 2" id="245954" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="drums 2/audio_in 1">
-          <Connection other="system:capture_6"/>
-        </Port>
+        <Port type="audio" name="drums 2/audio_in 1"/>
       </IO>
       <IO name="drums 2" id="245955" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="drums 2/audio_out 1">
@@ -5643,9 +5633,7 @@
       <Controllable name="solo-iso" id="246001" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="246003" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="hihat" id="246015" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="hihat/audio_in 1">
-          <Connection other="system:capture_5"/>
-        </Port>
+        <Port type="audio" name="hihat/audio_in 1"/>
       </IO>
       <IO name="hihat" id="246016" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="hihat/audio_out 1">
@@ -5724,9 +5712,7 @@
       <Controllable name="solo-iso" id="246062" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="246064" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="snare" id="246076" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="snare/audio_in 1">
-          <Connection other="system:capture_4"/>
-        </Port>
+        <Port type="audio" name="snare/audio_in 1"/>
       </IO>
       <IO name="snare" id="246077" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="snare/audio_out 1">
@@ -6089,9 +6075,7 @@
       <Controllable name="solo-iso" id="246123" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="246125" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="bass drum" id="246137" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="bass drum/audio_in 1">
-          <Connection other="system:capture_3"/>
-        </Port>
+        <Port type="audio" name="bass drum/audio_in 1"/>
       </IO>
       <IO name="bass drum" id="246138" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="bass drum/audio_out 1">
@@ -21143,7 +21127,7 @@
     </Playlist>
   </UnusedPlaylists>
   <RouteGroups>
-    <RouteGroup id="246169" rgba="2800014591" used-to-share-gain="0" name="drums" hidden="0" active="0" relative="1" gain="1" mute="1" solo="1" recenable="1" select="1" route-active="1" color="1" monitoring="1" group-master-number="-1" routes="245865 245926 245987 246048 245804 246109 "/>
+    <RouteGroup id="246169" rgba="2800014591" used-to-share-gain="0" name="drums" hidden="0" active="1" relative="1" gain="1" mute="1" solo="1" recenable="1" select="1" route-active="1" color="1" monitoring="1" group-master-number="-1" routes="245865 245926 245987 246048 245804 246109 "/>
   </RouteGroups>
   <Click>
     <IO name="Click" id="51" direction="Output" default-type="audio" user-latency="0">
@@ -21224,7 +21208,7 @@
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="679" y-size="509"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="37" y-off="55" x-size="620" y-size="370"/>
-      <Window name="audio-midi-setup" visible="0" x-off="641" y-off="411" x-size="582" y-size="438"/>
+      <Window name="audio-midi-setup" visible="0" x-off="768" y-off="73" x-size="582" y-size="438"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="839" y-off="381" x-size="341" y-size="372"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -21420,12 +21404,16 @@
       <Window name="P-244910-244941" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-244910-244940" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-244910-245721" visible="0" x-off="808" y-off="0" x-size="858" y-size="713" custom-ui="1"/>
+      <Window name="P-244910-412252" visible="0" x-off="495" y-off="458" x-size="875" y-size="344" custom-ui="1"/>
+      <Window name="P-244910-412313" visible="0" x-off="509" y-off="428" x-size="847" y-size="404" custom-ui="1"/>
       <Window name="P-244910-245664" visible="0" x-off="834" y-off="0" x-size="806" y-size="334" custom-ui="1"/>
       <Window name="P-244910-244942" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-244910-244943" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-244941-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-244940-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-245721-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-412252-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-412313-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-245664-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-244942-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-244943-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -21461,10 +21449,12 @@
       <Window name="PM-3307-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-73708-73739" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-73708-73738" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-73708-412238" visible="0" x-off="636" y-off="524" x-size="593" y-size="212" custom-ui="1"/>
       <Window name="P-73708-73740" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-73708-73741" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-73739-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-73738-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-412238-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-73740-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-73741-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-73953-73984" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -21495,12 +21485,6 @@
       <Window name="PM-132149-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-132151-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-132152-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-73708-412238" visible="0" x-off="636" y-off="524" x-size="593" y-size="212" custom-ui="0"/>
-      <Window name="PM-412238-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-244910-412252" visible="0" x-off="495" y-off="458" x-size="875" y-size="344" custom-ui="1"/>
-      <Window name="PM-412252-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-244910-412313" visible="0" x-off="509" y-off="428" x-size="847" y-size="404" custom-ui="1"/>
-      <Window name="PM-412313-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="66" visible="1"/>
         <Object id="automation 58" height="66" visible="0"/>
