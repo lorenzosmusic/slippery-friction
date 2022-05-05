@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="210127-song" sample-rate="44100" end-is-free="0" id-counter="447573" name-counter="1" event-counter="4885" vca-counter="1">
+<Session version="3002" name="210127-song" sample-rate="44100" end-is-free="0" id-counter="500882" name-counter="1" event-counter="4978" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3ubuntu4" modified-with="Ardour 1:5.12.0-3ubuntu4.1"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -259,6 +259,18 @@
     <Source name="drums 3-21.wav" type="audio" flags="" id="411977" captured-for="drums 3" channel="0" origin="" gain="1"/>
     <Source name="drums 4-21.wav" type="audio" flags="" id="412002" captured-for="drums 4" channel="0" origin="" gain="1"/>
     <Source name="drums 5-21.wav" type="audio" flags="" id="412027" captured-for="drums 5" channel="0" origin="" gain="1"/>
+    <Source name="Acoustic Cliff-1.wav" type="audio" flags="" id="499417" captured-for="Acoustic Cliff" channel="0" origin="" gain="1"/>
+    <Source name="elec guit Rob-1.wav" type="audio" flags="" id="499462" captured-for="elec guit Rob" channel="0" origin="" gain="1"/>
+    <Source name="Acoustic Cliff-2.wav" type="audio" flags="" id="500484" captured-for="Acoustic Cliff" channel="0" origin="" gain="1"/>
+    <Source name="elec guit Rob-2.wav" type="audio" flags="" id="500508" captured-for="elec guit Rob" channel="0" origin="" gain="1"/>
+    <Source name="Acoustic Cliff-3.wav" type="audio" flags="" id="500549" captured-for="Acoustic Cliff" channel="0" origin="" gain="1"/>
+    <Source name="elec guit Rob-3.wav" type="audio" flags="" id="500573" captured-for="elec guit Rob" channel="0" origin="" gain="1"/>
+    <Source name="Acoustic Cliff-4.wav" type="audio" flags="" id="500617" captured-for="Acoustic Cliff" channel="0" origin="" gain="1"/>
+    <Source name="elec guit Rob-4.wav" type="audio" flags="" id="500641" captured-for="elec guit Rob" channel="0" origin="" gain="1"/>
+    <Source name="Acoustic Cliff-5.wav" type="audio" flags="" id="500682" captured-for="Acoustic Cliff" channel="0" origin="" gain="1"/>
+    <Source name="elec guit Rob-5.wav" type="audio" flags="" id="500706" captured-for="elec guit Rob" channel="0" origin="" gain="1"/>
+    <Source name="Acoustic Cliff-6.wav" type="audio" flags="" id="500747" captured-for="Acoustic Cliff" channel="0" origin="" gain="1"/>
+    <Source name="elec guit Rob-6.wav" type="audio" flags="" id="500771" captured-for="elec guit Rob" channel="0" origin="" gain="1"/>
   </Sources>
   <Regions>
     <Region name="keys-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="7590912" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="230" type="audio" first-edit="nothing" source-0="203" master-source-0="203" channels="1"/>
@@ -1494,22 +1506,43 @@
     <Region name="drums 3-21" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="6799360" position="592273" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="412161" type="audio" first-edit="nothing" source-0="411977" master-source-0="411977" channels="1"/>
     <Region name="drums 4-21" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="6799360" position="592273" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="412186" type="audio" first-edit="nothing" source-0="412002" master-source-0="412002" channels="1"/>
     <Region name="drums 5-21" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="6799360" position="592273" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="412211" type="audio" first-edit="nothing" source-0="412027" master-source-0="412027" channels="1"/>
+    <Region name="Acoustic Cliff-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="4939776" position="592273" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="500462" type="audio" first-edit="nothing" source-0="499417" master-source-0="499417" channels="1"/>
+    <Region name="Acoustic Cliff-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="4939776" position="592273" beat="19.249991685563113" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="500470" type="audio" first-edit="nothing" source-0="499417" master-source-0="499417" channels="1"/>
+    <Region name="elec guit Rob-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="4939776" position="592273" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="500486" type="audio" first-edit="nothing" source-0="499462" master-source-0="499462" channels="1"/>
+    <Region name="elec guit Rob-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="4939776" position="592273" beat="19.249991685563113" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="500494" type="audio" first-edit="nothing" source-0="499462" master-source-0="499462" channels="1"/>
+    <Region name="Acoustic Cliff-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="216064" position="592273" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="500527" type="audio" first-edit="nothing" source-0="500484" master-source-0="500484" channels="1"/>
+    <Region name="Acoustic Cliff-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="216064" position="592273" beat="19.249991685563113" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="500535" type="audio" first-edit="nothing" source-0="500484" master-source-0="500484" channels="1"/>
+    <Region name="elec guit Rob-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="216064" position="592273" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="500551" type="audio" first-edit="nothing" source-0="500508" master-source-0="500508" channels="1"/>
+    <Region name="elec guit Rob-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="216064" position="592273" beat="19.249991685563113" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="500559" type="audio" first-edit="nothing" source-0="500508" master-source-0="500508" channels="1"/>
+    <Region name="Acoustic Cliff-3" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="6837248" position="592273" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="500595" type="audio" first-edit="nothing" source-0="500549" master-source-0="500549" channels="1"/>
+    <Region name="Acoustic Cliff-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="6837248" position="592273" beat="19.249991685563113" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="500603" type="audio" first-edit="nothing" source-0="500549" master-source-0="500549" channels="1"/>
+    <Region name="elec guit Rob-3" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="6837248" position="592273" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="500619" type="audio" first-edit="nothing" source-0="500573" master-source-0="500573" channels="1"/>
+    <Region name="elec guit Rob-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="6837248" position="592273" beat="19.249991685563113" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="500627" type="audio" first-edit="nothing" source-0="500573" master-source-0="500573" channels="1"/>
+    <Region name="Acoustic Cliff-4" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="6873088" position="592273" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="500660" type="audio" first-edit="nothing" source-0="500617" master-source-0="500617" channels="1"/>
+    <Region name="Acoustic Cliff-4.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="6873088" position="592273" beat="19.249991685563113" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="500668" type="audio" first-edit="nothing" source-0="500617" master-source-0="500617" channels="1"/>
+    <Region name="elec guit Rob-4" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="6873088" position="592273" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="500684" type="audio" first-edit="nothing" source-0="500641" master-source-0="500641" channels="1"/>
+    <Region name="elec guit Rob-4.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="6873088" position="592273" beat="19.249991685563113" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="500692" type="audio" first-edit="nothing" source-0="500641" master-source-0="500641" channels="1"/>
+    <Region name="Acoustic Cliff-5" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="6926336" position="592273" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="500725" type="audio" first-edit="nothing" source-0="500682" master-source-0="500682" channels="1"/>
+    <Region name="elec guit Rob-5" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="6926336" position="592273" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="500749" type="audio" first-edit="nothing" source-0="500706" master-source-0="500706" channels="1"/>
+    <Region name="Acoustic Cliff-6" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="10686464" position="592273" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="500802" type="audio" first-edit="nothing" source-0="500747" master-source-0="500747" channels="1"/>
+    <Region name="elec guit Rob-6" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="10686464" position="592273" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="500826" type="audio" first-edit="nothing" source-0="500771" master-source-0="500771" channels="1"/>
   </Regions>
   <CompoundAssociations>
-    <CompoundAssociation copy="18053" original="17991"/>
-    <CompoundAssociation copy="988" original="956"/>
-    <CompoundAssociation copy="997" original="929"/>
     <CompoundAssociation copy="18017" original="17897"/>
     <CompoundAssociation copy="18026" original="17906"/>
     <CompoundAssociation copy="18035" original="17936"/>
     <CompoundAssociation copy="18044" original="17982"/>
+    <CompoundAssociation copy="18053" original="17991"/>
+    <CompoundAssociation copy="988" original="956"/>
+    <CompoundAssociation copy="997" original="929"/>
   </CompoundAssociations>
   <Selection>
-    <StripableAutomationControl stripable="244910" control="0" order="0"/>
+    <StripableAutomationControl stripable="465091" control="0" order="10"/>
   </Selection>
   <Locations>
     <Location id="251" name="session" start="592273" end="7284192" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
     <Location id="2224" name="Loop" start="4553581" end="5784279" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+    <Location id="500797" name="mark1" start="10788241" end="10788241" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
   </Locations>
   <Bundles/>
   <VCAManager/>
@@ -1524,6 +1557,7 @@
           <Connection other="380887__giomilko__scratched-beats-009 1/audio_out 1"/>
           <Connection other="380887__giomilko__scratched-beats-009/audio_out 1"/>
           <Connection other="491327__c-void__hats-peace/audio_out 1"/>
+          <Connection other="Acoustic Cliff/audio_out 1"/>
           <Connection other="Bass Alt/audio_out 1"/>
           <Connection other="Bass Triples/audio_out 1"/>
           <Connection other="Bass/audio_out 1"/>
@@ -1532,6 +1566,7 @@
           <Connection other="dist-comp/audio_out 1"/>
           <Connection other="drums 2/audio_out 1"/>
           <Connection other="drums/audio_out 1"/>
+          <Connection other="elec guit Rob/audio_out 1"/>
           <Connection other="eric guitar new/audio_out 1"/>
           <Connection other="floor primary/audio_out 1"/>
           <Connection other="guitar edit 2/audio_out 1"/>
@@ -1548,6 +1583,7 @@
           <Connection other="380887__giomilko__scratched-beats-009 1/audio_out 2"/>
           <Connection other="380887__giomilko__scratched-beats-009/audio_out 2"/>
           <Connection other="491327__c-void__hats-peace/audio_out 2"/>
+          <Connection other="Acoustic Cliff/audio_out 2"/>
           <Connection other="Bass Alt/audio_out 2"/>
           <Connection other="Bass Triples/audio_out 2"/>
           <Connection other="Bass/audio_out 2"/>
@@ -1556,6 +1592,7 @@
           <Connection other="dist-comp/audio_out 2"/>
           <Connection other="drums 2/audio_out 2"/>
           <Connection other="drums/audio_out 2"/>
+          <Connection other="elec guit Rob/audio_out 2"/>
           <Connection other="eric guitar new/audio_out 2"/>
           <Connection other="floor primary/audio_out 2"/>
           <Connection other="guitar edit 2/audio_out 2"/>
@@ -2157,7 +2194,7 @@
       <Diskstream flags="Recordable" playlist="Bass.1" name="Bass" id="2204" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="2556" name="Bass Triples" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="20" flags="AudioTrack,OrderSet" color="4072192511"/>
+      <PresentationInfo order="22" flags="AudioTrack,OrderSet" color="4072192511"/>
       <Controllable name="solo" id="2564" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="2570" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="2572" flags="Toggle" value="0" solo-safe="0"/>
@@ -2375,7 +2412,7 @@
       <Diskstream flags="Recordable" playlist="Bass-5.2" name="Bass-5.1" id="2597" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="3274" name="Bass Alt" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="17" flags="AudioTrack,OrderSet" color="2481287935"/>
+      <PresentationInfo order="19" flags="AudioTrack,OrderSet" color="2481287935"/>
       <Controllable name="solo" id="3282" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="3288" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="3290" flags="Toggle" value="0" solo-safe="0"/>
@@ -3443,7 +3480,7 @@
       <Diskstream flags="Recordable" playlist="380887__giomilko__scratched-beats-009 1.1" name="380887__giomilko__scratched-beats-009 1" id="21245" speed="1" capture-alignment="Automatic" record-safe="0" channels="2"/>
     </Route>
     <Route id="73708" name="guitar" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="18" flags="AudioTrack,OrderSet" color="3855655935"/>
+      <PresentationInfo order="20" flags="AudioTrack,OrderSet" color="3855655935"/>
       <Controllable name="solo" id="73716" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="73722" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="73724" flags="Toggle" value="0" solo-safe="0"/>
@@ -3548,7 +3585,7 @@
       <Diskstream flags="Recordable" playlist="guitar.2" name="guitar" id="73749" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="73953" name="guitar edit" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="19" flags="AudioTrack,OrderSet" color="3631408639"/>
+      <PresentationInfo order="21" flags="AudioTrack,OrderSet" color="3631408639"/>
       <Controllable name="solo" id="73961" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="73967" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="73969" flags="Toggle" value="0" solo-safe="0"/>
@@ -3627,7 +3664,7 @@
       <Diskstream flags="Recordable" playlist="guitar edit.1" name="guitar edit" id="73994" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="84581" name="guitar edit 2" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="15" flags="AudioTrack,OrderSet" color="3854989567"/>
+      <PresentationInfo order="17" flags="AudioTrack,OrderSet" color="3854989567"/>
       <Controllable name="solo" id="84589" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="84595" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="84597" flags="Toggle" value="0" solo-safe="0"/>
@@ -3808,7 +3845,7 @@
       <Diskstream flags="Recordable" playlist="guitar edit 2.1" name="guitar edit 2" id="84622" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="87642" name="guitar edit 3" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="16" flags="AudioTrack,OrderSet" color="3849491455"/>
+      <PresentationInfo order="18" flags="AudioTrack,OrderSet" color="3849491455"/>
       <Controllable name="solo" id="87650" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="87656" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="87658" flags="Toggle" value="0" solo-safe="0"/>
@@ -4098,7 +4135,7 @@
       <Diskstream flags="Recordable" playlist="guitar edit 3.1" name="guitar edit 3" id="87683" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="132119" name="rob drums" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="21" flags="AudioTrack,OrderSet" color="4051232255"/>
+      <PresentationInfo order="23" flags="AudioTrack,OrderSet" color="4051232255"/>
       <Controllable name="solo" id="132127" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="132133" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="132135" flags="Toggle" value="0" solo-safe="0"/>
@@ -4831,7 +4868,7 @@
       <Slavable/>
     </Route>
     <Route id="244910" name="eric guitar new" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="14" flags="AudioTrack,OrderSet" color="3856983295"/>
+      <PresentationInfo order="16" flags="AudioTrack,OrderSet" color="3856983295"/>
       <Controllable name="solo" id="244918" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="244924" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="244926" flags="Toggle" value="0" solo-safe="0"/>
@@ -6290,6 +6327,221 @@
       <Controllable name="rec-safe" id="246147" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="246145" flags="Toggle,RealTime" value="0"/>
       <Diskstream flags="Recordable" playlist="bass drum.drums.7" name="drums 5" id="246150" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
+    </Route>
+    <Route id="465091" name="Acoustic Cliff" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
+      <PresentationInfo order="15" flags="AudioTrack,OrderSet" color="3849499135"/>
+      <Controllable name="solo" id="465099" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="465105" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="465107" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Acoustic Cliff" id="465119" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="Acoustic Cliff/audio_in 1"/>
+      </IO>
+      <IO name="Acoustic Cliff" id="465120" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="Acoustic Cliff/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="Acoustic Cliff/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="465101" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="465103" flags="Toggle" value="0" phase-invert="0"/>
+      <Automation>
+        <AutomationList automation-id="solo" id="465098" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="465104" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="465106" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="mute" id="465100" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-enable" id="465126" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-safe" id="465128" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="phase" id="465102" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="monitor" id="465130" interpolation-style="Discrete" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="465110" flags="" value="1"/>
+        <Controllable name="pan-width" id="465114" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="465112" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="465116" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="465118" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="465109" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="465111" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-width" id="465113" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="465115" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="465117" interpolation-style="Linear" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="465122" name="Amp" active="1" user-latency="0" type="trim">
+        <Automation>
+          <AutomationList automation-id="trim" id="465096" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="trimcontrol" id="465097" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="465121" name="Amp" active="1" user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="465094" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="465095" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="500853" name="Calf Compressor" active="0" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Compressor" count="1" custom="0">
+        <Automation>
+          <AutomationList automation-id="parameter-4" id="500854" interpolation-style="Discrete" state="Off"/>
+          <AutomationList automation-id="parameter-5" id="500856" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-10" id="500858" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-11" id="500860" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-12" id="500862" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-13" id="500864" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-14" id="500866" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-15" id="500868" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-16" id="500870" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-17" id="500872" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-19" id="500874" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <ConfiguredInput>
+          <Channels type="audio" count="1"/>
+        </ConfiguredInput>
+        <CustomSinks>
+          <Channels type="audio" count="2"/>
+          <Channels type="midi" count="1"/>
+        </CustomSinks>
+        <ConfiguredOutput>
+          <Channels type="audio" count="1"/>
+        </ConfiguredOutput>
+        <PresetOutput/>
+        <InputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+        </InputMap-0>
+        <OutputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+        </OutputMap-0>
+        <ThruMap/>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
+          <Port symbol="bypass" value="0"/>
+          <Port symbol="level_in" value="1"/>
+          <Port symbol="threshold" value="0.1001337394118309"/>
+          <Port symbol="ratio" value="4294967296"/>
+          <Port symbol="attack" value="20"/>
+          <Port symbol="release" value="250"/>
+          <Port symbol="makeup" value="1"/>
+          <Port symbol="knee" value="2.8284299373626709"/>
+          <Port symbol="detection" value="0"/>
+          <Port symbol="stereo_link" value="0"/>
+          <Port symbol="mix" value="1"/>
+        </lv2>
+        <Controllable name="Bypass" id="500855" flags="Toggle" value="0" parameter="4" symbol="bypass"/>
+        <Controllable name="Input" id="500857" flags="" value="1" parameter="5" symbol="level_in"/>
+        <Controllable name="Threshold" id="500859" flags="" value="0.1001337394118309" parameter="10" symbol="threshold"/>
+        <Controllable name="Ratio" id="500861" flags="" value="4294967296" parameter="11" symbol="ratio"/>
+        <Controllable name="Attack" id="500863" flags="" value="20" parameter="12" symbol="attack"/>
+        <Controllable name="Release" id="500865" flags="" value="250" parameter="13" symbol="release"/>
+        <Controllable name="Makeup Gain" id="500867" flags="" value="1" parameter="14" symbol="makeup"/>
+        <Controllable name="Knee" id="500869" flags="" value="2.8284299373626709" parameter="15" symbol="knee"/>
+        <Controllable name="Detection" id="500871" flags="" value="0" parameter="16" symbol="detection"/>
+        <Controllable name="Stereo Link" id="500873" flags="" value="0" parameter="17" symbol="stereo_link"/>
+        <Controllable name="Mix" id="500875" flags="" value="1" parameter="19" symbol="mix"/>
+      </Processor>
+      <Processor id="465123" name="meter-Acoustic Cliff" active="1" user-latency="0" type="meter"/>
+      <Processor id="465124" name="Acoustic Cliff" active="1" user-latency="0" own-input="1" own-output="0" output="Acoustic Cliff" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="465110" flags="" value="1"/>
+          <Controllable name="pan-width" id="465114" flags="" value="0"/>
+          <Controllable name="pan-elevation" id="465112" flags="" value="0"/>
+          <Controllable name="pan-frontback" id="465116" flags="" value="0"/>
+          <Controllable name="pan-lfe" id="465118" flags="" value="0"/>
+          <Automation>
+            <AutomationList automation-id="pan-azimuth" id="465109" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-elevation" id="465111" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-width" id="465113" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-frontback" id="465115" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-lfe" id="465117" interpolation-style="Linear" state="Off"/>
+          </Automation>
+        </Pannable>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="465131" flags="RealTime" value="2" monitoring="MonitorDisk"/>
+      <Controllable name="rec-safe" id="465129" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="465127" flags="Toggle,RealTime" value="0"/>
+      <Diskstream flags="Recordable" playlist="Acoustic Cliff.2" name="Acoustic Cliff" id="465132" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
+    </Route>
+    <Route id="465152" name="elec guit Rob" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
+      <PresentationInfo order="14" flags="AudioTrack,OrderSet" color="1927663871"/>
+      <Controllable name="solo" id="465160" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="465166" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="465168" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="elec guit Rob" id="465180" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="elec guit Rob/audio_in 1"/>
+      </IO>
+      <IO name="elec guit Rob" id="465181" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="elec guit Rob/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="elec guit Rob/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="465162" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="465164" flags="Toggle" value="0" phase-invert="0"/>
+      <Automation>
+        <AutomationList automation-id="solo" id="465159" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="465165" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="465167" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="mute" id="465161" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-enable" id="465187" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-safe" id="465189" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="phase" id="465163" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="monitor" id="465191" interpolation-style="Discrete" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="465171" flags="" value="0"/>
+        <Controllable name="pan-width" id="465175" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="465173" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="465177" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="465179" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="465170" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="465172" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-width" id="465174" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="465176" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="465178" interpolation-style="Linear" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="465183" name="Amp" active="1" user-latency="0" type="trim">
+        <Automation>
+          <AutomationList automation-id="trim" id="465157" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="trimcontrol" id="465158" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="465182" name="Amp" active="1" user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="465155" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="465156" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="465184" name="meter-elec guit Rob" active="1" user-latency="0" type="meter"/>
+      <Processor id="465185" name="elec guit Rob" active="1" user-latency="0" own-input="1" own-output="0" output="elec guit Rob" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="465171" flags="" value="0"/>
+          <Controllable name="pan-width" id="465175" flags="" value="0"/>
+          <Controllable name="pan-elevation" id="465173" flags="" value="0"/>
+          <Controllable name="pan-frontback" id="465177" flags="" value="0"/>
+          <Controllable name="pan-lfe" id="465179" flags="" value="0"/>
+          <Automation>
+            <AutomationList automation-id="pan-azimuth" id="465170" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-elevation" id="465172" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-width" id="465174" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-frontback" id="465176" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-lfe" id="465178" interpolation-style="Linear" state="Off"/>
+          </Automation>
+        </Pannable>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="465192" flags="RealTime" value="2" monitoring="MonitorDisk"/>
+      <Controllable name="rec-safe" id="465190" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="465188" flags="Toggle,RealTime" value="0"/>
+      <Diskstream flags="Recordable" playlist="elec guit Rob.2" name="elec guit Rob" id="465193" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
   </Routes>
   <Playlists>
@@ -18485,6 +18737,72 @@
         </InverseFadeOut>
       </Region>
     </Playlist>
+    <Playlist id="500776" name="elec guit Rob.2" type="audio" orig-track-id="465152" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="elec guit Rob-6.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="10686464" position="592273" beat="19.249991685563113" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="500834" type="audio" first-edit="nothing" source-0="500771" master-source-0="500771" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="500835" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="500836" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="500837" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="500838" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="500780" name="Acoustic Cliff.2" type="audio" orig-track-id="465091" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="Acoustic Cliff-6.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="10686464" position="592273" beat="19.249991685563113" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="500810" type="audio" first-edit="nothing" source-0="500747" master-source-0="500747" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="500811" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="500812" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="500813" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="500814" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
   </Playlists>
   <UnusedPlaylists>
     <Playlist id="19293" name="380887__giomilko__scratched-beats-009 1.1" type="audio" orig-track-id="19512" shared-with-ids="" frozen="0" combine-ops="0">
@@ -21127,9 +21445,75 @@
         </InverseFadeOut>
       </Region>
     </Playlist>
+    <Playlist id="465133" name="Acoustic Cliff.1" type="audio" orig-track-id="465091" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="Acoustic Cliff-5.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="6926336" position="592273" beat="19.249991685563113" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="500733" type="audio" first-edit="nothing" source-0="500682" master-source-0="500682" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="500734" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="500735" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="500736" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="500737" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="465194" name="elec guit Rob.1" type="audio" orig-track-id="465152" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="elec guit Rob-5.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="6926336" position="592273" beat="19.249991685563113" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="500757" type="audio" first-edit="nothing" source-0="500706" master-source-0="500706" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="500758" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="500759" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="500760" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="500761" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
   </UnusedPlaylists>
   <RouteGroups>
-    <RouteGroup id="246169" rgba="2800014591" used-to-share-gain="0" name="drums" hidden="0" active="0" relative="1" gain="1" mute="1" solo="1" recenable="1" select="1" route-active="1" color="1" monitoring="1" group-master-number="-1" routes="245865 245926 245987 246048 245804 246109 "/>
+    <RouteGroup id="246169" rgba="2800014591" used-to-share-gain="0" name="drums" hidden="0" active="1" relative="1" gain="1" mute="1" solo="1" recenable="1" select="1" route-active="1" color="1" monitoring="1" group-master-number="-1" routes="245865 245926 245987 246048 245804 246109 "/>
   </RouteGroups>
   <Click>
     <IO name="Click" id="51" direction="Output" default-type="audio" user-latency="0">
@@ -21207,16 +21591,16 @@
       <Window name="session-options-editor" visible="0" x-off="0" y-off="335" x-size="750" y-size="368"/>
       <Window name="speaker-config" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="about" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="679" y-size="509"/>
+      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="668" y-size="509"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="37" y-off="55" x-size="620" y-size="370"/>
-      <Window name="audio-midi-setup" visible="0" x-off="651" y-off="321" x-size="617" y-size="438"/>
+      <Window name="audio-midi-setup" visible="0" x-off="691" y-off="321" x-size="582" y-size="438"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="839" y-off="381" x-size="341" y-size="372"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="locations" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="big-clock" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-connection-manager" visible="0" x-off="73" y-off="126" x-size="691" y-size="599"/>
+      <Window name="audio-connection-manager" visible="0" x-off="73" y-off="126" x-size="691" y-size="680"/>
       <Window name="midi-connection-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="idle-o-meter" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-54" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -21233,6 +21617,8 @@
       <Window name="RPM-16272" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-16658" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-20991" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-465152" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-465091" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-244910" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-84581" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-87642" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -21403,19 +21789,35 @@
       <Window name="PM-21207-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-21219-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-21220-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-465152-465183" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-465152-465184" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-465152-465182" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-465152-465185" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-465183-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-465184-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-465182-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-465185-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-465091-465122" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-465091-465121" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-465091-465123" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-465091-465124" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-465122-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-465121-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-465123-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-465124-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-244910-244941" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-244910-244940" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-244910-245721" visible="0" x-off="808" y-off="0" x-size="858" y-size="713" custom-ui="1"/>
       <Window name="P-244910-412252" visible="0" x-off="495" y-off="458" x-size="875" y-size="344" custom-ui="1"/>
       <Window name="P-244910-412313" visible="0" x-off="509" y-off="428" x-size="847" y-size="404" custom-ui="1"/>
+      <Window name="P-244910-245721" visible="0" x-off="808" y-off="0" x-size="858" y-size="713" custom-ui="1"/>
       <Window name="P-244910-245664" visible="0" x-off="834" y-off="0" x-size="806" y-size="334" custom-ui="1"/>
       <Window name="P-244910-244942" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-244910-244943" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-244941-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-244940-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-245721-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-412252-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-412313-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-245721-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-245664-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-244942-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-244943-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -21487,6 +21889,8 @@
       <Window name="PM-132149-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-132151-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-132152-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-465091-500853" visible="0" x-off="832" y-off="0" x-size="847" y-size="404" custom-ui="1"/>
+      <Window name="PM-500853-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="66" visible="1"/>
         <Object id="automation 58" height="66" visible="0"/>
@@ -21796,6 +22200,23 @@
         <Object id="strip 278306" strip-width="Wide" visible="1">
           <Object id="processor 278336"/>
         </Object>
+        <Object id="strip 465091" visible="1" strip-width="Wide">
+          <Object id="processor 465121"/>
+          <Object id="processor 500853"/>
+        </Object>
+        <Object id="rtav 465091" height="66" visible="1"/>
+        <Object id="automation 465095" height="66" visible="0"/>
+        <Object id="automation 465097" height="66" visible="0"/>
+        <Object id="automation 465091 12/0/0" height="66" visible="0"/>
+        <Object id="automation 465110" height="66" visible="0"/>
+        <Object id="strip 465152" visible="1" strip-width="Wide">
+          <Object id="processor 465182"/>
+        </Object>
+        <Object id="rtav 465152" height="66" visible="1"/>
+        <Object id="automation 465156" height="66" visible="0"/>
+        <Object id="automation 465158" height="66" visible="0"/>
+        <Object id="automation 465152 12/0/0" height="66" visible="0"/>
+        <Object id="automation 465171" height="66" visible="0"/>
       </GUIObjectState>
     </UI>
     <Videomonitor active="0"/>
