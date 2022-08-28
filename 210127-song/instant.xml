@@ -9,7 +9,6 @@
       <Release/>
     </Buttons>
     <Selection>
-      <StripableView id="158"/>
       <Marker id="251" start="0"/>
     </Selection>
     <RegionList sort-type="ByEndInFile" sort-ascending="1" show-all="0" show-automatic-regions="1"/>
