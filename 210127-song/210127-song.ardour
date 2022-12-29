@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="210127-song" sample-rate="44100" end-is-free="0" id-counter="792471" name-counter="1" event-counter="29887" vca-counter="1">
+<Session version="3002" name="210127-song" sample-rate="44100" end-is-free="0" id-counter="824302" name-counter="1" event-counter="30816" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3ubuntu4" modified-with="Ardour 1:5.12.0-3ubuntu4.1"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -345,6 +345,7 @@
     <Source name="vocals bak-44.wav" type="audio" flags="" id="759548" captured-for="vocals bak" channel="0" origin="" gain="1"/>
     <Source name="MIDI hihiat-1.mid" type="midi" flags="Writable,CanRename" id="791465" origin=""/>
     <Source name="MIDI hihiat-2.mid" type="midi" flags="Writable,CanRename" id="791682" origin=""/>
+    <Source name="midi hats-1.mid" type="midi" flags="Writable,CanRename" id="824252" origin=""/>
   </Sources>
   <Regions>
     <Region name="keys-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="7590912" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="230" type="audio" first-edit="nothing" source-0="203" master-source-0="203" channels="1"/>
@@ -3497,13 +3498,13 @@
     <Region name="MIDI hihiat-2.31" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="61535" position="14460699" beat="470.00004308390021" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="21" start-beats="0" length-beats="2" id="792107" type="midi" first-edit="nothing" source-0="791682" master-source-0="791682"/>
   </Regions>
   <CompoundAssociations>
-    <CompoundAssociation copy="988" original="956"/>
-    <CompoundAssociation copy="997" original="929"/>
     <CompoundAssociation copy="18017" original="17897"/>
     <CompoundAssociation copy="18026" original="17906"/>
     <CompoundAssociation copy="18035" original="17936"/>
     <CompoundAssociation copy="18044" original="17982"/>
     <CompoundAssociation copy="18053" original="17991"/>
+    <CompoundAssociation copy="988" original="956"/>
+    <CompoundAssociation copy="997" original="929"/>
     <CompoundAssociation copy="642879" original="641036"/>
     <CompoundAssociation copy="642888" original="641123"/>
     <CompoundAssociation copy="642897" original="642005"/>
@@ -9017,8 +9018,8 @@
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
-      <Controllable name="mute" id="588304" flags="Toggle,RealTime" value="1"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="588304" flags="Toggle,RealTime" value="0"/>
       <Controllable name="phase" id="588306" flags="Toggle" value="0" phase-invert="0"/>
       <Automation>
         <AutomationList automation-id="solo" id="588301" interpolation-style="Discrete" state="Off"/>
@@ -40754,6 +40755,10 @@
       <Region name="MIDI hihiat-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="123070" position="13783814" beat="448" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="4" id="791684" type="midi" first-edit="nothing" source-0="791682" master-source-0="791682"/>
       <Region name="MIDI hihiat-2.32" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="123070" position="13906884" beat="452.00000907029477" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0" length-beats="4" id="792254" type="midi" first-edit="nothing" source-0="791682" master-source-0="791682"/>
     </Playlist>
+    <Playlist id="824027" name="midi hats.1" type="midi" orig-track-id="823985" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="midi hats-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="123070" position="13783814" beat="448" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="4" id="824254" type="midi" first-edit="nothing" source-0="824252" master-source-0="824252"/>
+      <Region name="midi hats-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="123070" position="13906884" beat="452.00000907029477" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0" length-beats="4" id="824298" type="midi" first-edit="nothing" source-0="824252" master-source-0="824252"/>
+    </Playlist>
   </UnusedPlaylists>
   <RouteGroups>
     <RouteGroup id="246169" rgba="2800014591" used-to-share-gain="0" name="drums" hidden="0" active="0" relative="1" gain="1" mute="1" solo="1" recenable="1" select="1" route-active="1" color="1" monitoring="1" group-master-number="-1" routes="245865 245926 245987 246048 245804 246109 "/>
@@ -40886,7 +40891,7 @@
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="689" y-size="509"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="57" y-off="57" x-size="620" y-size="370"/>
-      <Window name="audio-midi-setup" visible="0" x-off="691" y-off="321" x-size="582" y-size="438"/>
+      <Window name="audio-midi-setup" visible="0" x-off="1338" y-off="0" x-size="582" y-size="438"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="839" y-off="381" x-size="341" y-size="372"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -41636,6 +41641,11 @@
           <Object id="processor 791733"/>
           <Object id="processor 792113"/>
           <Object id="processor 792142"/>
+        </Object>
+        <Object id="strip 823985" strip-width="Wide" visible="1">
+          <Object id="processor 824015"/>
+          <Object id="processor 824245"/>
+          <Object id="processor 824266"/>
         </Object>
       </GUIObjectState>
     </UI>
