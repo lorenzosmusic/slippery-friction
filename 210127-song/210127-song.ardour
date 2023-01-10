@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="210127-song" sample-rate="44100" end-is-free="0" id-counter="920258" name-counter="1" event-counter="31181" vca-counter="1">
+<Session version="3002" name="210127-song" sample-rate="44100" end-is-free="0" id-counter="952273" name-counter="1" event-counter="31195" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3ubuntu4" modified-with="Ardour 1:5.12.0-3ubuntu4.1"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -3570,11 +3570,9 @@
     <CompoundAssociation copy="715352" original="715187"/>
     <CompoundAssociation copy="715361" original="715196"/>
   </CompoundAssociations>
-  <Selection>
-    <StripableAutomationControl stripable="588294" control="0" order="9"/>
-  </Selection>
+  <Selection/>
   <Locations>
-    <Location id="251" name="session" start="13737663" end="22060256" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+    <Location id="251" name="session" start="13768430" end="22060256" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
     <Location id="2224" name="Loop" start="15752926" end="15999065" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
     <Location id="500797" name="mark1" start="10788241" end="10788241" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
     <Location id="640883" name="ver 2" start="13783814" end="13783814" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
@@ -38114,7 +38112,7 @@
       </Region>
     </Playlist>
     <Playlist id="887543" name="loose hihat.2" type="audio" orig-track-id="887377" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="loose hihat-9.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="276907" length="2953674" position="13783814" beat="448" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="887766" type="audio" first-edit="nothing" source-0="887713" master-source-0="887713" channels="1">
+      <Region name="loose hihat-9.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="276907" length="2953674" position="13783814" beat="448" sync-position="276907" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="887766" type="audio" first-edit="nothing" source-0="887713" master-source-0="887713" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="887767" interpolation-style="Curved" state="Off">
@@ -41527,7 +41525,7 @@
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="689" y-size="509"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="57" y-off="57" x-size="620" y-size="370"/>
-      <Window name="audio-midi-setup" visible="0" x-off="0" y-off="495" x-size="582" y-size="438"/>
+      <Window name="audio-midi-setup" visible="0" x-off="166" y-off="0" x-size="582" y-size="438"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="839" y-off="381" x-size="341" y-size="372"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -41577,6 +41575,16 @@
       <Window name="PM-1446-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-86-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-87-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-588294-588325" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-588294-588324" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-588294-588791" visible="0" x-off="0" y-off="299" x-size="806" y-size="334" custom-ui="1"/>
+      <Window name="P-588294-588326" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-588294-588327" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-588325-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-588324-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-588791-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-588326-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-588327-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-158848-158884" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-158848-158879" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-158848-158878" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -41619,10 +41627,12 @@
       <Window name="PM-245959-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-245987-246018" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-245987-246017" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-245987-919939" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-245987-246019" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-245987-246020" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-246018-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-246017-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-919939-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-246019-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-246020-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-246048-246079" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -41659,24 +41669,16 @@
       <Window name="PM-588234-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-588236-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-588237-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-588294-588325" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-588294-588324" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-588294-588791" visible="0" x-off="0" y-off="299" x-size="806" y-size="334" custom-ui="1"/>
-      <Window name="P-588294-588326" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-588294-588327" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-588325-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-588324-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-588791-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-588326-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-588327-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-887377-887408" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-887377-887407" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-887377-887813" visible="0" x-off="1030" y-off="0" x-size="858" y-size="713" custom-ui="1"/>
+      <Window name="P-887377-919779" visible="0" x-off="0" y-off="547" x-size="806" y-size="334" custom-ui="1"/>
       <Window name="P-887377-887409" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-887377-887410" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-887408-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-887407-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-887813-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-919779-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-887409-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-887410-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-2163-2194" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -41897,10 +41899,6 @@
       <Window name="PM-132713-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-132307-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-132308-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-887377-919779" visible="0" x-off="0" y-off="547" x-size="806" y-size="334" custom-ui="1"/>
-      <Window name="PM-919779-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-245987-919939" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-919939-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="66" visible="1"/>
         <Object id="automation 58" height="66" visible="0"/>
