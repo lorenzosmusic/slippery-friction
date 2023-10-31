@@ -6,20 +6,20 @@ This is a song recorded by the open-source commons band [Lorenzo's Music](https:
 We decided to create an experimental recording method using **GitHub for music** to record remotely. We do this with the recording software **Ardour** and the **Ubuntu Studio OS**. This is another song from that experiment.
 
 # The GitHub for music Concept
-Since **Ardour** is all controlled by a main code file and distributes the information and audio tracks to folders from that main file we realized that it could be version controlled with GitHub. 
+Since **Ardour** is all controlled by a main code file and distributes the information and audio tracks to folders from that main file we realized that it could be version-controlled with GitHub. 
 
-The band could share our sessions and create branches for each new idea track or idea using the the full Ardour sessions with audio and all!
+The band could share our sessions and create branches for each new idea track or idea using the full Ardour sessions with audio and all!
 
 Here is the [final recording from this experiment on YouTube](https://youtu.be/P3qRj8uPYzc)
 
-[![Lorenzo's Music - Slippery friction - audio](https://img.youtube.com/vi/P3qRj8uPYzc/0.jpg)](https://youtu.be/P3qRj8uPYzc)
+[![Lorenzo's Music - Slippery friction - audio](https://lh3.googleusercontent.com/T1Jqu2ir5ewnjwoZHR_6bSp0Bj3QtAG1z8WrRgtbm7s1o7jtci2YogDiaURnme5k9GUx3idnHeRyn2Jj=w400-h400-l90-rj)](https://music.youtube.com/watch?v=N6UOPQ_6oYk&si=gmAKyuBu8wlCdyIj)
 
 You can also **download the finished song Slippery friction from our website**
 [https://www.lorenzosmusic.com/2023/09/slippery-friction-by-lorenzos-music.html](https://www.lorenzosmusic.com/2023/09/slippery-friction-by-lorenzos-music.html?utm_source=github&utm_medium=slipperyfrictionsonglink&utm_campaign=slipperyfrictionreadme)
 
-We use Github for the working Ardour files of our songs to collaborate, make changes and record our parts outside of the studioand to backup the sessions.
+We use GitHub for the working Ardour files of our songs to collaborate, make changes, and record our parts outside of the studio. This also allows us to back up the sessions.
 
-Tom Ray of Lorenzo's Music explains **Github for music** on the Ubuntu YouTube Channel [Using Ubuntu Studio, Ardour, and GitHub for music collaboration](https://youtu.be/gB7AsFbtJic?si=QWUdkPWiO-VU_yAF&t=30)
+Tom Ray of Lorenzo's Music explains **GitHub for music** on the Ubuntu YouTube Channel [Using Ubuntu Studio, Ardour, and GitHub for music collaboration](https://youtu.be/gB7AsFbtJic?si=QWUdkPWiO-VU_yAF&t=30)
 
 We use the free and open source [Linux](https://www.linux.org/) based operating system [Ubuntu Studio](https://ubuntustudio.org/). The Ubuntu studio OS has programs and plug-ins for this project preinstalled and ready to use.
 
@@ -31,10 +31,10 @@ Most of the effects used come from the open-source audio effects software projec
 You will need to clone this repository to use it. **Downloading it as a zip file will NOT work.**
 
 ## Requirements
-* **Ardour DAW** [https://ardour.org](https://ardour.org/) Recording Software that is used for these file so you will need to install this!
+* **Ardour DAW** [https://ardour.org](https://ardour.org/) Recording Software that is used for these sessions. So you will need to install this!
 * **Git LFS** [https://git-lfs.github.com](https://git-lfs.github.com/). This needs to be installed to access the large .wav files of the recording on Github or else there won't be any music to hear in the recording :)
 
-## Not required but needed to recreate original session
+## Not required but needed to recreate the original session sounds
 
 **"What if I don't use Ubuntu Studio?"**
 
@@ -45,14 +45,14 @@ If you would like to try and install them - here are some of the main ones used.
 **Effects**
 
 These should be installed to recreate the actual version of the song we made, but the recording is still able to work without them, it will just sound different without these effects.
-* **Calf** Plugins Effects. [https://calf-studio-gear.org](https://calf-studio-gear.org/). These are the EQ and compression effects. These are only available for Linux operating systems but some of them come pre-installed in Ardour. If you can't install them the songs will still play the original files without these efects.
-* **Guitarix** The guitar pedal effects used on the tracks. Sadly these are only available for Linux. You can still play the files without them if you are on another operating system you will just hear the un altered sounds. - [https://guitarix.org](https://guitarix.org/)
+* **Calf** Plugins Effects. [https://calf-studio-gear.org](https://calf-studio-gear.org/). These are the EQ and compression effects. These are only available for Linux operating systems but some of them come pre-installed in Ardour. If you can't install them the songs will still play the original files without these effects.
+* **Guitarix** The guitar pedal effects used on the tracks. Sadly these are only available for Linux. You can still play the files without them if you are on another operating system you will just hear the unaltered sounds. - [https://guitarix.org](https://guitarix.org/)
 
 # If you already use Ubuntu Studio
-The only thing you you need to install is  **Git LFS** [https://git-lfs.github.com](https://git-lfs.github.com/) to download the large .wav files from the GitHub repository.
+The only thing you need to install is  **Git LFS** [https://git-lfs.github.com](https://git-lfs.github.com/) to download the large .wav files from the GitHub repository.
 
 # Share a session or remix with the band
-If you create anything from this song, remix it or build anything from it let us know! We would love to hear it!
+If you create anything from this song, remix it, or build anything from it let us know! We would love to hear it!
 
 You can message us on Twitter [@lorenzosmusic](https://twitter.com/lorenzosmusic) or email us from the contact section on our website [here at lorenzosmusic.com](https://www.lorenzosmusic.com/p/contact.html?utm_source=github&utm_medium=contactlink&utm_campaign=slipperyfrictionreadme)
 
